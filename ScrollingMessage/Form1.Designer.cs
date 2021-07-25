@@ -38,6 +38,8 @@ namespace ScrollingMessage
             this.textBoxPrice = new System.Windows.Forms.TextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.buttonRemoveSymbol = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -121,7 +123,7 @@ namespace ScrollingMessage
             // 
             // buttonRemoveSymbol
             // 
-            this.buttonRemoveSymbol.Location = new System.Drawing.Point(248, 115);
+            this.buttonRemoveSymbol.Location = new System.Drawing.Point(248, 151);
             this.buttonRemoveSymbol.Name = "buttonRemoveSymbol";
             this.buttonRemoveSymbol.Size = new System.Drawing.Size(159, 34);
             this.buttonRemoveSymbol.TabIndex = 4;
@@ -129,11 +131,31 @@ namespace ScrollingMessage
             this.buttonRemoveSymbol.UseVisualStyleBackColor = true;
             this.buttonRemoveSymbol.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(27, 77);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 15);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Registered Symbols";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(248, 111);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(268, 15);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Select a Symbol in Listbox to the left to Unregister";
+            // 
             // EquityDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(806, 354);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonRemoveSymbol);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.textBoxPrice);
@@ -162,6 +184,8 @@ namespace ScrollingMessage
         private System.Windows.Forms.TextBox textBoxPrice;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button buttonRemoveSymbol;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
