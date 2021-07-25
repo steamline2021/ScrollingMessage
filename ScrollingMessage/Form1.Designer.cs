@@ -76,7 +76,7 @@ namespace ScrollingMessage
             this.buttonAddSymbol.Name = "buttonAddSymbol";
             this.buttonAddSymbol.Size = new System.Drawing.Size(159, 34);
             this.buttonAddSymbol.TabIndex = 3;
-            this.buttonAddSymbol.Text = "Add Symbol";
+            this.buttonAddSymbol.Text = "Subsribe Symbol";
             this.buttonAddSymbol.UseVisualStyleBackColor = true;
             this.buttonAddSymbol.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -108,6 +108,7 @@ namespace ScrollingMessage
             this.textBoxPrice.Size = new System.Drawing.Size(100, 23);
             this.textBoxPrice.TabIndex = 2;
             this.textBoxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxPrice.Visible = false;
             // 
             // listBox1
             // 
@@ -124,7 +125,7 @@ namespace ScrollingMessage
             this.buttonRemoveSymbol.Name = "buttonRemoveSymbol";
             this.buttonRemoveSymbol.Size = new System.Drawing.Size(159, 34);
             this.buttonRemoveSymbol.TabIndex = 4;
-            this.buttonRemoveSymbol.Text = "Remove Symbol";
+            this.buttonRemoveSymbol.Text = "Unscribe Symbol";
             this.buttonRemoveSymbol.UseVisualStyleBackColor = true;
             this.buttonRemoveSymbol.Click += new System.EventHandler(this.button4_Click);
             // 

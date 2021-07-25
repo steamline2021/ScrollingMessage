@@ -112,11 +112,12 @@ namespace ScrollingMessage
 
         private void button1_Click(object sender, EventArgs e)
         {
-            mylist.Add(" " + textBoxSymbol.Text.ToUpper() + ":" + textBoxPrice.Text.ToUpper());
+            var rand = new Random();
+            mylist.Add(" " + textBoxSymbol.Text.ToUpper() + ":" + rand.Next(50, 101).ToString());//textBoxPrice.Text.ToUpper());
             DisplayListItems();
             DisplayCollectionInGrid();
             textBoxSymbol.Clear();
-            textBoxPrice.Clear();
+            //textBoxPrice.Clear();
         }
 
    
