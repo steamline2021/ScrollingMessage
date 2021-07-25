@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollingMessage", "ScrollingMessage\ScrollingMessage.csproj", "{0133DC80-497F-40B0-B282-6CC6A23BE45F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0133DC80-497F-40B0-B282-6CC6A23BE45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0133DC80-497F-40B0-B282-6CC6A23BE45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0133DC80-497F-40B0-B282-6CC6A23BE45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0133DC80-497F-40B0-B282-6CC6A23BE45F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {875967E3-D7EE-4D41-97EF-1EAABD5BC003}
+	EndGlobalSection
+EndGlobal
